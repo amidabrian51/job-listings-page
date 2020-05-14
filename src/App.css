@@ -1,4 +1,6 @@
 body {
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-family: 'Spartan', sans-serif;
   background-color: hsl(180, 52%, 96%);
