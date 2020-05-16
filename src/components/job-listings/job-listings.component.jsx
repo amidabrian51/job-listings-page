@@ -1,5 +1,5 @@
 import React from 'react';
-// import data from '../../data/data.json';
+
 import './job-listing.styles.css';
 import JobCard from '../job-card/job-card.component.jsx/job-card.component';
 import { Component } from 'react';
