@@ -22,7 +22,7 @@ class JobListing extends Component {
     render() {
         return (
             <div>
-                {this.state.jobs.map(({id, ...otherJobProps}) =>(
+                {this.state.jobs.map(({id,...otherJobProps}) =>(
                 <JobCard key={id} {...otherJobProps} />
                 ))}
             </div>

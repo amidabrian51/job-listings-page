@@ -2,13 +2,17 @@ import React from 'react';
 
 import './job-card.styles.css';
 
-const JobCard = ({company, position, postedAt, contract, location, logo }) => (
+const JobCard = ({company, position, postedAt, contract, location, logo, featured, new: newJob }) => (
+   
 <div className="container">
     <div className='card'>
         <div className='companyName'>
             <img src={logo} alt="logo" width="100" height="100"></img>
         </div>
         <div className='content'>
+        { newJob ? <button className='myButton'>New!</button> : null }
+            
+            {featured ? <button className='myDarkButton'>Featured</button> : null }
             <h2>{company}</h2>
             <h1>{position}</h1>
             <div className='details'>
