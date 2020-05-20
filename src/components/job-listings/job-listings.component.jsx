@@ -5,6 +5,7 @@ import JobCard from '../job-card/job-card.component.jsx/job-card.component';
 import { Component } from 'react';
 
 
+
 class JobListing extends Component {
     constructor() {
         super();
@@ -22,6 +23,7 @@ class JobListing extends Component {
     render() {
         return (
             <div>
+             
                 {this.state.jobs.map(({id,...otherJobProps}) =>(
                 <JobCard key={id} {...otherJobProps} />
                 ))}

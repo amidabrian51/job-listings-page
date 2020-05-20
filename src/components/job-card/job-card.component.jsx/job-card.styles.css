@@ -43,6 +43,16 @@ h2 {
   .details h3{
     padding: 10px;
   }
+  .jobNames {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .jobNames .techNames {
+    position: absolute;
+    right: 100px;
+  }
 .container .card .companyName {
   /* display: flex;
   flex-direction: row;

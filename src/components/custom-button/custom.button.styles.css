@@ -1,7 +1,7 @@
 
 .customButton {
     background-color:hsl(180, 52%, 96%);
-    border-radius:25px;
+    border-radius:15px;
     display:inline-block;
     cursor:pointer;
     color:hsl(180, 29%, 50%);
